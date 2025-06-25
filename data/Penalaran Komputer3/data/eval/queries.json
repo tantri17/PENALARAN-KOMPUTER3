@@ -1,0 +1,52 @@
+[
+  {
+    "query_id": 1,
+    "query_text": "Ini adalah isi dokumen hukum nomor 87. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 87)",
+    "ground_truth": "87"
+  },
+  {
+    "query_id": 2,
+    "query_text": "Ini adalah isi dokumen hukum nomor 23. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 23)",
+    "ground_truth": "23"
+  },
+  {
+    "query_id": 3,
+    "query_text": "Ini adalah isi dokumen hukum nomor 98. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 98)",
+    "ground_truth": "98"
+  },
+  {
+    "query_id": 4,
+    "query_text": "Ini adalah isi dokumen hukum nomor 64. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 64)",
+    "ground_truth": "64"
+  },
+  {
+    "query_id": 5,
+    "query_text": "Ini adalah isi dokumen hukum nomor 16. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 16)",
+    "ground_truth": "16"
+  },
+  {
+    "query_id": 6,
+    "query_text": "Ini adalah isi dokumen hukum nomor 34. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 34)",
+    "ground_truth": "34"
+  },
+  {
+    "query_id": 7,
+    "query_text": "Ini adalah isi dokumen hukum nomor 14. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 14)",
+    "ground_truth": "14"
+  },
+  {
+    "query_id": 8,
+    "query_text": "Ini adalah isi dokumen hukum nomor 70. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 70)",
+    "ground_truth": "70"
+  },
+  {
+    "query_id": 9,
+    "query_text": "Ini adalah isi dokumen hukum nomor 1. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 1)",
+    "ground_truth": "1"
+  },
+  {
+    "query_id": 10,
+    "query_text": "Ini adalah isi dokumen hukum nomor 77. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 77)",
+    "ground_truth": "77"
+  }
+]

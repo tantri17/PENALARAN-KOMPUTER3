@@ -1,0 +1,11 @@
+query_id,query_text,ground_truth,pred_svm,pred_bert,status_svm,status_bert
+1,Ini adalah isi dokumen hukum nomor 87. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 87),87,87,87,BENAR,BENAR
+2,Ini adalah isi dokumen hukum nomor 23. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 23),23,23,23,BENAR,BENAR
+3,Ini adalah isi dokumen hukum nomor 98. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 98),98,98,98,BENAR,BENAR
+4,Ini adalah isi dokumen hukum nomor 64. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 64),64,64,64,BENAR,BENAR
+5,Ini adalah isi dokumen hukum nomor 16. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 16),16,16,16,BENAR,BENAR
+6,Ini adalah isi dokumen hukum nomor 34. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 34),34,34,34,BENAR,BENAR
+7,Ini adalah isi dokumen hukum nomor 14. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 14),14,14,14,BENAR,BENAR
+8,Ini adalah isi dokumen hukum nomor 70. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 70),70,70,70,BENAR,BENAR
+9,Ini adalah isi dokumen hukum nomor 1. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 1),1,0,1,SALAH,BENAR
+10,Ini adalah isi dokumen hukum nomor 77. Terdakwa disebut dalam pasal tertentu dan dijatuhi hukuman sesuai peraturan yang berlaku. (Dummy 77),77,77,77,BENAR,BENAR
