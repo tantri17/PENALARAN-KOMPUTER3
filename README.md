@@ -105,6 +105,37 @@ Buka dan jalankan notebook berikut secara berurutan:
 3. `03_retrieval.ipynb` : Vektorisasi dan retrieval.
 4. `04_predict.ipynb` : Prediksi solusi kasus baru.
 5. `05_evaluation.ipynb` : Evaluasi dan visualisasi hasil.
+---
+
+## 📋 Data Prediksi
+
+Tabel berikut menunjukkan hasil prediksi 10 query uji menggunakan dua pendekatan: **TF-IDF + SVM** dan **BERT Embedding**.
+
+| query\_id | query\_text                                | ground\_truth | pred\_svm | pred\_bert | status\_svm | status\_bert |
+| --------- | ------------------------------------------ | ------------- | --------- | ---------- | ----------- | ------------ |
+| 1         | Ini adalah isi dokumen hukum nomor 87. ... | 87            | 87        | 87         | BENAR       | BENAR        |
+| 2         | Ini adalah isi dokumen hukum nomor 23. ... | 23            | 23        | 23         | BENAR       | BENAR        |
+| 3         | Ini adalah isi dokumen hukum nomor 98. ... | 98            | 98        | 98         | BENAR       | BENAR        |
+| 4         | Ini adalah isi dokumen hukum nomor 64. ... | 64            | 64        | 64         | BENAR       | BENAR        |
+| 5         | Ini adalah isi dokumen hukum nomor 16. ... | 16            | 16        | 16         | BENAR       | BENAR        |
+| 6         | Ini adalah isi dokumen hukum nomor 34. ... | 34            | 34        | 34         | BENAR       | BENAR        |
+| 7         | Ini adalah isi dokumen hukum nomor 14. ... | 14            | 14        | 14         | BENAR       | BENAR        |
+| 8         | Ini adalah isi dokumen hukum nomor 70. ... | 70            | 70        | 70         | BENAR       | BENAR        |
+| 9         | Ini adalah isi dokumen hukum nomor 1. ...  | 1             | 0         | 1          | SALAH       | BENAR        |
+| 10        | Ini adalah isi dokumen hukum nomor 77. ... | 77            | 77        | 77         | BENAR       | BENAR        |
+
+---
+
+### 🎯 Akurasi Model
+
+| Model          | Akurasi |
+| -------------- | ------- |
+| TF-IDF + SVM   | 90.00%  |
+| BERT Embedding | 100.00% |
+
+![image](https://github.com/user-attachments/assets/3be6a7fb-4e27-4613-92d5-e9098d59ac78)
+
+---
 
 ---
 
@@ -112,10 +143,13 @@ Buka dan jalankan notebook berikut secara berurutan:
 
 | Model          | Accuracy | Precision | Recall  | F1-Score |
 | -------------- | -------- | --------- | ------- | -------- |
-| TF-IDF + SVM   | 92.00%   | 91.11%    | 92.00%  | 91.20%   |
+| TF-IDF + SVM   | 90.00%   | 81.82%    | 81.82%   | 81.82%  |
 | BERT Embedding | 100.00%  | 100.00%   | 100.00% | 100.00%  |
 
 ---
+![image](https://github.com/user-attachments/assets/5feb1434-93b3-4b6e-b078-eb0bd98ec439)
+
+
 
 ## 📄 Struktur Folder
 
